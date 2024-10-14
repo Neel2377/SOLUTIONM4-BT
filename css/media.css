@@ -1,0 +1,152 @@
+/* Large Desktops and Laptops (width >= 1200px) */
+@media screen and (min-width: 1200px) {
+    /* General layout adjustments for large desktops */
+    /* .container {
+      max-width: 1140px;
+      margin: 0 auto;
+    } */
+    header nav ul {
+      display: flex;
+      justify-content: flex-end;
+    }
+}
+
+    header nav {
+    display: block;
+    }
+
+    header .ri-menu-line {
+    display: none;
+    }
+  
+  /* Tablets and small desktops (width between 768px and 1199px) */
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    .container {
+      max-width: 720px;
+    }
+
+    .banner-content h1 {
+      font-size: 2.5rem;
+    }
+  
+    .banner-content p {
+      font-size: 1.2rem;
+    }
+  
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .col-4 {
+      width: 50%;
+    }
+  
+    .about-img img {
+      max-width: 100%;
+    }
+  
+    .proffesional {
+      flex-direction: column;
+    }
+  
+    .proffesional-content,
+    .proffesional-image {
+      width: 100%;
+    }
+  }
+  
+  /* Mobile Devices (width <= 767px) */
+  @media screen and (max-width: 767px) {
+    header .logo {
+      font-size: 1.5rem;
+    }
+  
+    header nav ul {
+      display: none;
+    }
+  
+    header a.ri-menu-line {
+      display: inline-block;
+    }
+  
+    /* Services Section */
+    .col-4, .col-md-6, .col-sm-12 {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    /* About Section */
+    .about .col-6 {
+      width: 100%;
+    }
+  
+    .about-contnet {
+      text-align: center;
+      padding: 20px;
+    }
+  
+    .about-img img {
+      max-width: 100%;
+    }
+  
+    /* Professionals Section */
+    .proffesional {
+      flex-direction: column;
+    }
+  
+    .proffesional-content,
+    .proffesional-image {
+      width: 100%;
+    }
+  
+    .proffesional-content ul.d-flex {
+      flex-direction: column;
+    }
+  
+    /* Features Section */
+    .features-inner {
+      padding: 20px 0;
+    }
+  
+    /* Portfolio Section */
+    .portfolio .col-4 {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+  
+    /* Testimonials Section */
+    .testimonials .col-4 {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .testimonilas-inner img {
+      width: 50%;
+    }
+  
+    /* Contact Section */
+    .contact .col-4 {
+      width: 100%;
+    }
+  
+    .contact-item {
+      margin-bottom: 20px;
+    }
+  
+    .form-item input {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+  
+    .talk-image img {
+      max-width: 100%;
+    }
+  
+    /* Footer */
+    footer ul {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  
